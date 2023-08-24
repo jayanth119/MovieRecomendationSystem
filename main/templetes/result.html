@@ -1,0 +1,40 @@
+{% extends 'base2.html' %}
+{% block content %}
+
+     <div class="product_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-12">
+                  <h1 class="product_taital">Our Recomendation </h1>
+                  <p class="product_text">More Like This  </p>
+               </div>
+            </div>
+            <div class="product_section_2 layout_padding">
+               
+            <div class="row">
+                  {% for i in list  %}
+                <div class="col-lg-3 col-sm-6">
+                    <div class="product_box">
+                       <h4 class="bursh_text">{{ i.movie }}</h4>
+                       <p class="lorem_text">{{ i.type1 }}</p>
+                       <img src="{{ i.poster }}"  alt={{ i.type1 }} class="image_1">
+                       <div class="btn_main">
+                         <div class="buy_bt">
+                             <ul>
+                                <!-- <li class="active"><a href="#">Buy Now</a></li>
+                                <li><a href="#">Buy Now</a></li> -->
+                             </ul>
+                          </div>
+                          <!-- <h3 class="price_text">Price $30</h3> -->
+                       </div> 
+                    </div>
+                </div>
+                {% endfor %}
+         </div>
+         
+               <div class="seemore_bt"><a href={% url 'main' %}>See More</a></div>
+        </div>
+         </div>
+      </div>
+
+{% endblock %}

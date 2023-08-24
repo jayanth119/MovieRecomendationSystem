@@ -1,0 +1,266 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+         <!-- banner section start --> 
+         <div class="banner_section layout_padding">
+            <div class="container">
+               <div id="banner_slider" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                     <div class="carousel-item active">
+                        <div class="row">
+                           <div class="col-md-6">
+                              <!-- <div class="banner_img"><img src="images/banner-img.png"></div> -->
+                           </div>
+                           <div class="col-md-6">
+                              <div class="banner_taital_main">
+                                 <h1 class="banner_taital">Movie</h1>
+                                 <h5 class="tasty_text">Tasty Of Movie</h5>
+                                 <p class="banner_text">144p of netflix</p>
+                                 <div class="btn_main">
+                                   
+                                    <div class="callnow_bt active"><a href={%url 'coffe' %}>Watch  Now</a></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+      
+                  </div>
+               </div>
+            </div>
+         </div>
+        </div>
+   <!-- banner section end -->
+
+      <!-- header section end -->
+      <!-- coffee section start -->
+      <div class="coffee_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <h1 class="coffee_taital">Our generes</h1>
+               <div class="bulit_icon"><img src="/static/images/bulit-icon.png"></div>
+            </div>
+         </div>
+         <div class="coffee_section_2">
+            <div id="main_slider" class="carousel slide" data-ride="carousel">
+               <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <div class="container-fluid">
+                        <div class="row">
+                           <div class="col-lg-3 col-md-6">
+                              <div class="coffee_img"><img src="/static/images/blog-img2.png"></div>
+                              <h3 class="types_text">ADVENTURE</h3>
+                              <p class="looking_text">Exlpore Avatar's World </p>
+                              <div class="read_bt"><a href={% url 'coffe' %}> Click </a></div>
+                           </div>
+                           <div class="col-lg-3 col-md-6">
+                              <div class="coffee_img"><img src="/static/images/action.png"></div>
+                              <h3 class="types_text">ACTION MOVIES </h3>
+                              <p class="looking_text">More ACTION More Fun  </p>
+                              <div class="read_bt"><a href={% url 'coffe' %}>Click</a></div>
+                           </div>
+                           <div class="col-lg-3 col-md-6">
+                              <div class="coffee_img"><img src="/static/images/adven.png"></div>
+                              <h3 class="types_text">ADVENTURE MOVIES </h3>
+                              <p class="looking_text">uff !!!</p>
+                              <div class="read_bt"><a href={% url 'coffe' %}>Click</a></div>
+                           </div>
+                           <div class="col-lg-3 col-md-6">
+                              <div class="coffee_img"><img src="/static/images/blog-img1.png"></div>
+                              <h3 class="types_text">Fantancy and Science  </h3>
+                              <p class="looking_text">Marvel Cinematic Universe </p>
+                              <div class="read_bt"><a href={% url 'coffe' %}>Click</a></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <div class="container-fluid">
+                        <div class="row">
+                           <div class="col-lg-3 col-md-6">
+                              <div class="coffee_img"><img src="/static/images/fan.png"></div>
+                              <h3 class="types_text"> Myth and Love  </h3>
+                              <p class="looking_text">O my Aladdin </p>
+                              <div class="read_bt"><a href={% url 'coffe' %}>Click</a></div>
+                           </div>
+                           <div class="col-lg-3 col-md-6">
+                              <div class="coffee_img"><img src="/static/images/fr.png"></div>
+                              <h3 class="types_text">Drama</h3>
+                              <p class="looking_text">Regular but Acting simply Superb </p>
+                              <div class="read_bt"><a href={% url 'coffe' %}>Click</a></div>
+                           </div>
+                           <div class="col-lg-3 col-md-6">
+                              <div class="coffee_img"><img src="/static/images/an.png"></div>
+                              <h3 class="types_text">ANIMATION MOVIE</h3>
+                              <p class="looking_text">Quantumn Physic Badass Kang !</p>
+                              <div class="read_bt"><a href={% url 'coffe' %}>Click</a></div>
+                           </div>
+                           <div class="col-lg-3 col-md-6">
+                              <div class="coffee_img"><img src="/static/images/saf.png"></div>
+                              <h3 class="types_text">THRILLER MOVIE </h3>
+                              <p class="looking_text"> Dumb </p>
+                              <div class="read_bt"><a href={% url 'coffe' %}>Read More</a></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <div class="container-fluid">
+                        <div class="row">
+                           <div class="col-lg-3 col-md-6">
+                              <div class="coffee_img"><img src="/static/images/fer.png"></div>
+                              <h3 class="types_text">Romance  movie </h3>
+                              <p class="looking_text">18 +</p>
+                              <div class="read_bt"><a href={% url 'coffe' %}>Click</a></div>
+                           </div>
+                           <div class="col-lg-3 col-md-6">
+                              <div class="coffee_img"><img src="/static/images/ran.png"></div>
+                              <h3 class="types_text">Comedy </h3>
+                              <p class="looking_text">Not like you but ?</p>
+                              <div class="read_bt"><a href={% url 'coffe' %}>Click</a></div>
+                           </div>
+                           <div class="col-lg-3 col-md-6">
+                              <div class="coffee_img"><img src="/static/images/jum.png"></div>
+                              <h3 class="types_text">HISTORY MOVIES </h3>
+                              <p class="looking_text">SOunds lIKE that </p>
+                              <div class="read_bt"><a href={% url 'coffe' %}>Click</a></div>
+                           </div>
+                           <div class="col-lg-3 col-md-6">
+                              <div class="coffee_img"><img src="/static/images/dor.png"></div>
+                              <h3 class="types_text">CRIME MOVIES </h3>
+                              <p class="looking_text">haa haa Find </p>
+                              <div class="read_bt"><a href={% url 'coffe' %}>Click</a></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+               <i class="fa fa-arrow-left"></i>
+               </a>
+               <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+               <i class="fa fa-arrow-right"></i>
+               </a>
+            </div>
+         </div>
+      </div>
+      <!-- coffee section end -->
+      <!-- about section start -->
+      <div class="about_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <h1 class="about_taital">About My  Project </h1>
+                  <div class="bulit_icon"><img src="/static/images/bulit-icon.png"></div>
+               </div>
+            </div>
+            <div class="about_section_2 layout_padding">
+               <div class="image_iman"><img src="/static/images/about-img.png" class="about_img"></div>
+               <div class="about_taital_box">
+                  <h1 class="about_taital_1">Movie Recomendation '</h1>
+                  <p class=" about_text">
+                     Our Movie Recommendation System is designed to enhance your movie-watching experience by suggesting films that align with your preferences. Using advanced algorithms and data analysis, the system analyzes your viewing history and preferences to provide personalized movie recommendations. Whether you're a fan of action, romance, or sci-fi, our system aims to help you discover new movies that you'll love. Say goodbye to decision fatigue and dive into a world of tailored movie suggestions with our Movie Recommendation System.
+                     
+                     Key Features:
+                     
+                     Personalized recommendations based on your watching history.
+                     Efficient algorithms that learn and adapt to your preferences over time.
+                     Seamless user interface for easy navigation and selection.
+                     Diverse genre coverage to cater to a wide range of interests.
+                     Continuous updates to ensure the latest movie offerings are included.
+                     Elevate your movie choices with our Movie Recommendation System and uncover a whole new world of cinematic enjoyment.
+                     <b>note :</b> This recommendations based on content  of genre  
+                  
+                  </p>
+                  <div class="readmore_btn"><a href={% url 'main' %}>Read More</a></div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- about section end -->
+      <!-- client section start -->
+      <div class="client_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <h1 class="about_taital"> Owner of project </h1>
+                  <div class="bulit_icon"><img src="/static/images/bulit-icon.png"></div>
+               </div>
+            </div>
+            <div class="client_section_2">
+               <div class="client_taital_main">
+                  <div class="client_left">
+                     <div class="client_img"><img src="/static/images/client-img1.png"></div>
+                  </div>
+                  <div class="client_right">
+                     <h3 class="moark_text">Jayanth</h3>
+                     <p class="client_text">MaD MaN  </p>
+                  </div>
+               </div>
+               <div class="client_taital_main">
+                  <div class="client_left">
+                     <!-- <div class="client_img"><img src="images/client-img2.png"></div> -->
+                  </div>
+                  <div class="client_right">
+                     <!-- <h3 class="moark_text">Mihacal</h3> -->
+                     <!-- <p class="client_text">now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancynow use Lorem Ipsum as their default model text, </p> -->
+                  </div>
+               </div>
+               <div class="client_taital_main">
+                  <div class="client_left">
+                     <!-- <div class="client_img"><img src="images/client-img3.png"></div> -->
+                  </div>
+                  <div class="client_right">
+                     <!-- <h3 class="moark_text">Uliya den</h3> -->
+                     <!-- <p class="client_text">now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancynow use Lorem Ipsum as their default model text, </p> -->
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- client section end -->
+      <!-- blog section start -->
+      <div class="blog_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <h1 class="about_taital">Our Blog</h1>
+                  <div class="bulit_icon"><img src="/static/images/bulit-icon.png"></div>
+               </div>
+            </div>
+            <div class="blog_section_2">
+               <div class="row">
+                  <div class="col-md-6">
+                     <div class="blog_box">
+                        <div class="blog_img"><img src="/static/images/blog-img1.png"></div>
+                        <h4 class="date_text">2008 IronMan </h4>
+                        <h4 class="prep_text">MARVEL MOVIES </h4>
+                        <p class="lorem_text">**Marvel Cinematic Universe (MCU):** 
+
+                           The Marvel Cinematic Universe is a groundbreaking franchise that has redefined the world of superhero films. Spanning multiple interconnected movies and TV shows, the MCU brings iconic Marvel Comics characters to life on the big and small screens. From Earth-defending Avengers to space-faring Guardians, each installment weaves a tapestry of epic storytelling, intricate character development, and breathtaking action. With its rich universe, the MCU has captivated audiences worldwide, creating a cultural phenomenon that continues to evolve and expand, captivating both devoted fans and newcomers alike.</p>
+                     </div>
+                     <div class="read_bt"><a href="#">Read More</a></div>
+                  </div>
+                  <div class="col-md-6">
+                     <div class="blog_box">
+                        <div class="blog_img"><img src="/static/images/blog-img2.png"></div>
+                        <h4 class="date_text">2009 Avatar 
+            
+                        </h4>
+                        <h4 class="prep_text">JAMES CAMEROEN FRANCHISES </h4>
+      
+                           "Avatar" is a groundbreaking science fiction film that transports audiences to the enchanting world of Pandora. Set in the 22nd century, the story follows a paraplegic former Marine who becomes embroiled in an epic conflict between humans and the indigenous Na'vi people. Through stunning visual effects and captivating storytelling, "Avatar" explores themes of environmentalism, cultural clash, and the power of unity. As the characters navigate this alien landscape, they discover that the true riches lie not in material wealth, but in the connections they forge and the bonds they create with Pandora's unique ecosystem.
+                     
+                           
+                           "Avatar" takes audiences on an unforgettable journey to a realm where technology and nature intersect, leaving an indelible mark on the world of cinema.</p>
+                     </div>
+                     <div class="read_bt"><a href={% url 'main' %}>Read More</a></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      
+{% endblock %}
+          

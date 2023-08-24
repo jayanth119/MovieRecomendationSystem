@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>About</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" type="text/css" href="/static/css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="/static/css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="/static/images/fevicon.png" type="image/gif" />
+      <!-- font css -->
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="/static/css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3//static/css/font-awesome.css">
+      <script src=
+      "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+         </script>
+         
+         <script src=
+      "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-3-typeahead/4.0.2/bootstrap3-typeahead.min.js">
+         </script>
+         
+         <link href=
+      "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            rel="stylesheet" />
+      
+         <style>
+            .typeahead {
+               width: 50%;
+               top: 100px !important;
+               left: 50px !important;
+            }
+            input{
+               color: #f7f2f2; 
+               overflow: visible;
+               overflow-x: visible;
+               overflow-y: visible;
+               align-content: center;
+               align-items: center;
+               background: rgb(216, 21, 21);
+               background-size: inherit;
+            }
+            p {
+            margin-top: 0px;
+            margin-bottom: 2rem;
+            }
+            b, strong {
+            font-weight: bold;
+            background-size: inherit;
+            size: 184 px;
+            font-size: x-large;
+            }
+         </style>
+   </head>
+   <body >
+<p><b >A film – also called a movie, motion picture, moving picture, picture, photoplay or (slang) flick – is a work of visual art that simulates experiences and otherwise communicates ideas, stories, perceptions, feelings, beauty, or atmosphere through the use of moving images. These images are generally accompanied by sound and, more rarely, other sensory stimulations.[1] The word "cinema", short for cinematography, is often used to refer to filmmaking and the film industry, and the art form that is the result of it</b></p>
+<div >
+   <b><p> Search movies </p></b>
+<form  method="POST" , action={% url 'result'%}>
+   {%csrf_token %}
+   <input type="text" class="typeahead" ,data-provide="typeahead" , placeholder="Enter Movies name  "  ,  name="movie" />
+   <button><b>Watch Now </b></button>
+   </form>
+</div>
+
+
+
+
+      <!-- header section end -->
+      <!-- coffee section start -->
+      <div class="coffee_section layout_padding">
+         <div class="container">
+            <!-- <div class="row">
+               <h1 class="coffee_taital">OUR Coffee OFFER</h1>
+               <div class="bulit_icon"><img src="images/bulit-icon.png"></div>
+            </div> -->
+         </div>
+      <div class="footer_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-10">
+                  <h1 class="address_text">Address</h1>
+                  <p class="footer_text"> India  </p>
+                  <div class="location_text">
+                     <ul>
+                        <li>
+                           <a href="#">
+                           <i class="fa fa-phone" aria-hidden="true"></i><span class="padding_left_10">+91 8179714811</span>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#">
+                           <i class="fa fa-envelope" aria-hidden="true"></i><span class="padding_left_10">chjayanth119@gmail.com</span>
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+                  
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- footer section end -->
+      <!-- copyright section start -->
+      <div class="copyright_section">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-6 col-sm-12">
+                  <p class="copyright_text">2020 All Rights Reserved. Design by <a href="#">Jayanth</a></p>
+               </div>
+               <div class="col-lg-6 col-sm-12">
+                  <div class="footer_social_icon">
+                     <ul>
+                        <li><a href="https://www.facebook.com/jayanth.ch.7161"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/jayanth-ch-374550253/"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/jayanth-ch-374550253/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.instagram.com/1_j_a_y_a_n_t_h_1_1_9/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- copyright section end -->
+      <!-- Javascript files-->
+      <script src="/static/js/search.js"></script>
+      <script src="/static/js/jquery.min.js"></script>
+      <script src="/static/js/popper.min.js"></script>
+      <script src="/static/js/bootstrap.bundle.min.js"></script>
+      <script src="/static/js/jquery-3.0.0.min.js"></script>
+      <script src="/static/js/plugin.js"></script>
+      <!-- sidebar -->
+      <script src="/static/js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="/static/js/custom.js"></script>
+   </body>
+</html>
